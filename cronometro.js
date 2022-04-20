@@ -61,6 +61,9 @@ function parar(){
 }
 function zerar(){
     clearInterval(inicia)
+    sec = 00;
+    min =00;
+    hr = 00;
     segundos.textContent = ('00');
     minu.textContent = ('00');
     hora.textContent = ('0'+hr);
