@@ -10,17 +10,18 @@
     </head>
     <body>
         <div class="numeros">
-    <label>00</label>
+    <label id="horas">00</label>
     <label>:</label>    
-    <label>00</label>   
+    <label id="minu">00</label>   
     <label>:</label>    
-    <label>00</label>   
+    <label id="segundos">00</label>   
 </div>
     <div>
 
-        <button class="verde">inciar</button>
-        <button class="amarelo">parar</button>
-        <button class="vermelho">zerar</button>
+        <button class="verde" onclick="incio()">inciar</button>
+        <button class="amarelo" onclick="parar()">parar</button>
+        <button class="vermelho" onclick="zerar()">zerar</button>
     </div>
+    <script src="cronometro.js"></script>
     </body>
 </html>
